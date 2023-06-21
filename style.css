@@ -1,0 +1,661 @@
+/*
+#body-vinicolas{
+    background-color: #dcdcdc;
+}*/
+
+#cabecalho .img-logo{
+    margin: 0;
+    height: 120px;
+}
+
+header,
+.headerSecundario,
+footer,
+.dropdown-item:active,
+.menu-lateral-variado .nav-pills .nav-link.active,
+.menu-lateral-variado .nav-pills .nav-link:active{
+    background-color: crimson;
+    color: white;
+}
+
+.logo h1{
+    margin: 0;
+}
+
+header .btn-pesquisa{
+    background-color: #fff;
+    border-radius: 0 16px 16px 0;
+    border: none;
+    width: 10%;
+}
+
+.btn-pesquisa:hover{
+    background-color: #fff;
+}
+
+form.style-form{
+    border-radius: 16px 0 0 16px;
+    padding: 8px;
+    margin-right: -5px;
+    width: 90%;
+    align-items: center;
+}
+
+.pesquisa{
+    font-size: 20px;
+    padding: 6px 0;
+    margin: 0;
+    border: none;
+}
+
+header .nav-link:hover,
+section .nav-pills .nav-link:hover,
+footer .nav-link:hover{
+    color: #000;
+}
+
+header .bi-search{
+    color: #000;
+}
+
+.nav-link,
+label,
+.btn-enviar,
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-submenu{
+    color: crimson;
+}
+/*Cabeçalho que acompanha a pagina*/
+
+#cabecalho-scroll{
+    display: none;
+}
+
+#cabecalho-scroll.headerSecundario{
+    display: flex;
+    height: 110px;
+    width: 100%;
+    z-index: 2;
+}
+
+.img-logo{
+    height: 110px;
+}
+/*
+.centralizar{
+    margin: auto;
+}*/
+
+/*Carousel de image*/
+
+.carousel-item,
+.separacao{
+    position: relative;
+}
+
+.imgx{
+    width: 100%;
+}
+
+.desc-escura{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ccc;
+    z-index: 1;
+}
+
+.desc-escura h2{
+    text-align: center;
+    margin-top: 25%;
+}
+
+.desc-escura button{
+    width: 15%;
+    margin: 16px 0 0 42.5%;
+    padding: 16px 36px;
+    border: 1px solid #ccc;
+    border-radius: 46px;
+}
+/*Slides de separação*/
+
+.imgz{
+    height: 400px;
+}
+
+.slide-escura{
+    position: absolute;
+    padding: 0;
+    /*top: 0;*/
+    width: 100%;
+    height: 100%;
+    /*margin-left: 12px;*/
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ccc;
+    z-index: 1;
+}
+
+/*Destaques e Mais vendidos*/
+
+.col-md-3{
+    padding-bottom: 16px;
+}
+
+.card{
+    border: none;
+    padding: 16px 24px;
+}
+
+.card-colored{
+    color: crimson;
+}
+
+.bandeiras .bandeiras-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 80%;
+}
+
+.card img{
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card h4{
+    font-size: 16px;
+}
+
+.card p,
+.form-label,
+.desc-sobre-loja{
+    font-size: 12px;
+}
+
+.card button{
+    width: 80%;
+    margin: 0 auto;
+    background-color: crimson;
+    border: none;
+}
+
+.card button:hover,
+.card button:hover:active,
+.nav-pills .nav-link:active,
+.nav-pills .nav-link.active{
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+}
+/*Produtos da loja*/
+
+.btn a,
+section .nav-submenu,
+footer .nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.style-form{
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.mobile{
+    display: none;
+}
+/*Cor de fundo das secções*/
+
+#vinhos-tintos,
+#vinhos-brancos,
+#vinhos-roses,
+#vinhos-variados{
+    width: 95%;
+    margin: 16px auto;
+    border-radius: 16px;
+}
+
+.col-md-2{
+    height: 650px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+#vinhos-tintos,
+#vinhos-variados{
+    border: 1px solid rgba(139,0,0,.9);
+}
+.menu-lateral,
+.menu-lateral-variado{
+    background-color: rgba(139,0,0,.9);
+}
+
+.menu-lateral-branco .nav-pills .nav-link.active,
+.menu-lateral-branco .nav-pills .nav-link:active{
+    background-color: #DBC286;
+}
+#vinhos-brancos{
+    border: 1px solid #DBC286;
+}
+.menu-lateral-branco{
+    background-color: #F9DC98;
+}
+
+#vinhos-roses{
+    border: 1px solid #D95959;
+}
+.menu-lateral-rose .nav-pills .nav-link.active,
+.menu-lateral-rose .nav-pills .nav-link:active{
+    background-color: #D95959;
+}
+.menu-lateral-rose{
+    background-color: #F28D8D;
+}
+/*Vinicola Do brasil- Carousel inicial*/
+
+.link-imagem,
+.card-imagem{
+    padding: 0;
+}
+
+.link-imagem{
+    padding: 0;
+    width: 180px;
+    height: 360px;
+}
+
+.vinicolas-imagem{
+    width: 40%;
+    height: 384px;
+}
+
+.expandir-imagem-1{
+    float: right;
+    background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(imagens/vinicolas-do-brasil/vinicolas-no-brasil-abreu-garcia.jpg) no-repeat;
+    background-size: cover;
+}
+
+.expandir-imagem-2{
+    background: 
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(imagens/vinicolas-do-brasil/vinicolas-no-brasil-lidio-carraro.jpg) no-repeat;
+    background-size: cover;
+}
+
+.expandir-imagem-3{
+    float: right;
+    background: 
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(imagens/vinicolas-do-brasil/vinicolas-no-brasil-vinicola-terranova.jpg) no-repeat;
+    background-size: cover;
+}
+
+.expandir-imagem-4{
+    background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(imagens/vinicolas-do-brasil/vinicolas-no-brasil-vinicola-villa-francioni.png) no-repeat
+}
+
+.alinhament-imagem{
+    float: right;
+}
+
+.vinicolas-imagem:hover{
+    pointer-events: auto;
+    width: 512px;
+    transition-duration: 1.05s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: width;
+}
+
+
+#body-vinicolas h1,
+#body-vinicolas h2{
+    font-weight: bold;
+}
+
+.alinhamento,
+.alinhamento-direita,
+.logo{
+    height: 100%;
+    margin: auto 0;
+    color: #000;
+}
+
+.desc-vinicolas{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+}
+
+.alinhamento-direita{
+    text-align: end;
+}
+
+/*Roda pé do site*/
+
+.bi-instagram,
+.bi-facebook{
+    font-size: 24px;
+}
+
+.bi-instagram:hover,
+.bi-facebook:hover{
+    font-size: 36px;
+}
+
+.spam{
+    font-size: 10px;
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+}
+
+#nome-error,
+#email-error,
+#mensagem-error{
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ccc;
+}
+
+label{
+    display: block;
+}
+
+.enviar{
+    width: 50%;
+    margin: 16px auto;
+}
+
+.btn-enviar{
+    background-color: rgba(139,0,0,.9);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+}
+/*Mida screen*/
+
+@media screen and (max-width: 640px){
+    .container{
+        overflow-x: hidden;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .style-form,
+    .btn-pesquisa{
+        display: none;
+    }
+
+    #cabecalho-scroll.headerSecundario,
+    .desc-escura button,
+    .carousel-indicators,
+    .setup,
+    .link-imagem{
+        display: none;
+    }
+    /*Carousel do site*/
+
+    .imgx{
+        height: 20em;
+    }
+
+    .desc-escura h2{
+        font-size: 1.2em;
+        width: 50%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 1em 0;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+    }
+    /*tamanho de fontes*/
+
+    .container h2{
+        font-size: 1.6em;
+        text-decoration: underline;
+    }
+
+    .container h4{
+        font-size: 1.2em;
+    }
+    /*imagens de divisão de secções*/
+
+    .imgz{
+        height: 35vh;
+    }
+    /*Seção de produtos*/
+
+    .menu-lateral,
+    .menu-lateral-branco,
+    .menu-lateral-rose,
+    .menu-lateral-variado{
+        height: 30vh;
+    }
+
+    section{
+        margin-bottom: 7vh;
+    }
+
+    .mobile{
+        display: block;
+        margin-top: 2em;
+    }
+    /*Roda pé*/
+
+    .desc-sobre-loja{
+        font-size: 0.9em;
+    }
+    /*Site das vinicolas*/
+
+    #abreu-garcia h2,
+    #lidio-carraro h2,
+    #terranova h2,
+    #villa-francioni h2{
+        font-size: 1em;
+        margin: 2em;
+        text-align: center;
+    }
+
+    .desc-vinicolas{
+        font-size: 1em;
+    }
+
+    .alinhamento-direita,
+    .alinhamento{
+        text-align: center;
+    }
+
+    .expandir-imagem-1,
+    .expandir-imagem-2,
+    .expandir-imagem-3,
+    .expandir-imagem-4{
+        float: left;
+    }
+
+    .vinicolas-imagem{
+        height: 40vh;
+    }
+
+    div.col-md-7{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    .container{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    /*Header*/
+
+    #cabecalho-scroll a,
+    #cabecalho-scroll .nav-item{
+        font-size: 0.8em;
+    }
+
+    #cabecalho-scroll li.nav-item{
+        display: flex;
+    }
+
+    .img-logo{
+        height: 7vh;
+        margin-top: 0.4em;
+    }
+
+    #cabecalho-scroll.headerSecundario{
+        height: 100px;
+    }
+    /*Carousel do site*/
+
+    .desc-escura h2{
+        font-size: 1.5em;
+        height: 100%;
+        width: 40%;
+        margin: 0 auto;
+        padding: 1.7em 0;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .desc-escura button{
+        display: none;
+    }
+    /*Produtos da loja*/
+
+    .card{
+        width: 100%;
+        padding: 0;
+    }
+
+    .bandeiras .bandeiras-img{
+        margin-left: 60%;
+    }
+
+    .text-start{
+        width: 100%;
+        font-size: 0.8em;
+    }
+    /*Site das vinicolas*/
+
+    #vinicolas .mobile-vinhos{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .tablet-user{
+        width: 100%;
+        margin: 0 0 2.2em 0;
+    }
+
+    .tablet-user h1{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .desc-vinicolas{
+        font-size: 1.2em;
+    }
+
+    .link-imagem{
+        width: 23vw;
+        height: 30vh;
+        padding-right: 1em;
+        margin: 0 auto;
+    }
+
+    #seção-vinicolas .tablet-alinhamento{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .alinhamento-direita{
+        text-align: start;
+    }
+
+    .tablet-ajuste{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .container h4{
+        font-size: 0.8em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical; 
+    }
+    /*Site das vinicolas*/
+
+    .tablet-user{
+        width: 50%;
+    }
+
+    .tablet-user h1,
+    .tablet-user p{
+        width: 85%;
+    }
+
+    .link-imagem{
+        width: 8.5em;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1919px){
+    .link-imagem{
+        width: 13em;
+    }
+
+    .desc-vinicolas{
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 1920px){    
+    .link-imagem{
+        width: 13em;
+        height: 40em;
+    }
+
+    #lidio-carraro .setup-ajustes{
+        padding: 0;
+    }
+
+    .alinhamento h2,
+    .alinhamento-direita h2{
+        font-size: 1.7em;
+    }
+
+    .desc-vinicolas{
+        font-size: 1.5em;
+    }
+}
