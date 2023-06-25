@@ -93,10 +93,6 @@ p{
 .img-logo{
     height: 110px;
 }
-/*
-.centralizar{
-    margin: auto;
-}*/
 
 /*Carousel de image*/
 
@@ -175,6 +171,10 @@ p{
     height: 300px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.img-produto{
+    width: 200px;
 }
 
 .card h4{
@@ -486,6 +486,12 @@ label{
         font-size: 1em;
     }
 
+    #lidio-carraro,
+    #villa-francioni{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .alinhamento-direita,
     .alinhamento{
         text-align: center;
@@ -523,6 +529,11 @@ label{
         display: flex;
     }
 
+    .logo{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .img-logo{
         height: 7vh;
         margin-top: 0.4em;
@@ -551,6 +562,16 @@ label{
 
     .card{
         width: 100%;
+        padding: 0;
+        height: 38em;
+    }
+
+    .card img{
+        height: 200px;
+    }
+
+    .card-body{
+        max-height: 34%;
         padding: 0;
     }
 
@@ -613,6 +634,25 @@ label{
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical; 
     }
+    /*Produtos*/
+    .bandeiras .bandeiras-img{
+        margin-left: 70%;
+    }
+
+    .img-produto{
+        width: 180px;
+    }
+
+    .card{
+        width: 100%;
+        padding: 0;
+        width: 36em;
+    }
+
+    .card-body{
+        max-height: 34%;
+        padding: 0;
+    }
     /*Site das vinicolas*/
 
     .tablet-user{
@@ -630,6 +670,20 @@ label{
     }
 }
 
+@media screen and (min-width: 1280px) and (max-width: 1399px){
+    /*Produtos*/
+    .card{
+        width: 100%;
+        padding: 0;
+        height: 37.9em;
+    }
+
+    .card-body{
+        max-height: 34%;
+        padding: 0;
+    }
+}
+
 @media screen and (min-width: 1400px) and (max-width: 1919px){
     .link-imagem{
         width: 13em;
@@ -638,9 +692,33 @@ label{
     .desc-vinicolas{
         font-size: larger;
     }
+    /*Produtos*/
+    .card{
+        width: 100%;
+        padding: 0;
+        height: 38em;
+    }
+
+    .card-body{
+        max-height: 34%;
+        padding: 0;
+    }
 }
 
 @media screen and (min-width: 1920px){    
+    /*Produtos*/
+    .card{
+        width: 100%;
+        padding: 0;
+        height: 38em;
+    }
+
+    .card-body{
+        max-height: 34%;
+        padding: 0;
+    }
+    /*Vinicolas*/
+    
     .link-imagem{
         width: 13em;
         height: 40em;
