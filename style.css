@@ -644,9 +644,9 @@ label{
     }
 
     .card{
-        width: 100%;
         padding: 0;
         width: 36em;
+        width: 100%;
     }
 
     .card-body{
