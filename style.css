@@ -403,7 +403,7 @@ label{
 
     .logo{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .style-form,
@@ -718,7 +718,7 @@ label{
         padding: 0;
     }
     /*Vinicolas*/
-    
+
     .link-imagem{
         width: 13em;
         height: 40em;
